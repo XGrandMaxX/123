@@ -10,7 +10,7 @@ public class Main {
     }
 
     public static void Calculator() {
-        System.out.println("Введите значения (a и b)");
+        System.out.println("Enter values (a and b)");
         for (int i = 0; i < 4; i++){
             int a = sc.nextInt();
             String b = sc.next();
@@ -33,7 +33,7 @@ public class Main {
                     Result[i]=result1;
                     break;
                 default:
-                    System.out.println("Вы ввели неравильное значение");
+                    System.out.println("You entered an invalid value");
                     Calculator();
                     break;
             }
