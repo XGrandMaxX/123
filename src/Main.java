@@ -38,9 +38,9 @@ public class Main {
                     break;
             }
         }
-        BoubleSort(Result);
+        BubbleSort(Result);
     }
-    public static void BoubleSort(int[] Sort){
+    public static void BubbleSort(int[] Sort){
         int n = Sort.length;
         int temp=0;
 
